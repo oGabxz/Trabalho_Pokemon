@@ -4,13 +4,13 @@ POKEMON: CAPTURA E BATALHA - Projeto POO (Java)
 COMO COMPILAR E EXECUTAR
 ------------------------
 1) Entre na pasta do projeto:
-   cd pokemon_projeto
+   cd monstraria_projeto
 
 2) Compile:
-   javac -d bin src/pokemon/*.java
+   javac -d bin src/monstraria/*.java
 
 3) Execute:
-   java -cp bin pokemon.Main
+   java -cp bin monstraria.Main
 
 COMO RODAR OS TESTES (JUnit 5)
 ------------------------------
