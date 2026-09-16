@@ -10,7 +10,7 @@ COMO COMPILAR E EXECUTAR (interface gráfica)
    `javac -d bin src\monstraria\*.java src\monstraria\view\*.java`
 
 3) Execute a versão com interface gráfica (Swing):
-   java -cp bin monstraria.MainGUI
+   `java -cp bin monstraria.MainGUI`
 
 COMO EXECUTAR A VERSÃO EM MODO TEXTO
 -------------------------------------
