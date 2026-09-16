@@ -24,20 +24,6 @@ Com o junit-platform-console-standalone.jar no projeto:
 
 (No Linux/Mac, troque ';' por ':')
 
-NOVIDADES DESTA VERSÃO
------------------------
-- Menu inicial totalmente redesenhado: nome do jogo "MONSTER REALM"
-  centralizado, com fundo de paisagem de floresta em estilo pixel art
-  (código-fonte: monstraria/view/FundoFloresta.java).
-- Opções do menu: NOVO JOGO / CARREGAR JOGO / MONSTERDEX / SAIR.
-- Sistema de salvamento em disco (monstraria/SaveManager.java), usando
-  serialização Java. O jogo é salvo automaticamente ao clicar em SAIR
-  ou ao fechar a janela, e pode ser salvo manualmente a qualquer
-  momento pelo botão "Salvar Jogo" na tela de Equipe.
-- Todos os sprites dos monstros agora são renderizados com um filtro
-  de pixelização (monstraria/view/PixelUtil.java), dando um acabamento
-  "16-bit" às criaturas, botões e título, mantendo sombras e volume.
-
 ESTRUTURA
 ---------
 src/monstraria/
