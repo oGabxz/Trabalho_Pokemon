@@ -7,7 +7,7 @@ COMO COMPILAR E EXECUTAR (interface gráfica)
    cd monstraria_projeto
 
 2) Compile todo o código-fonte:
-   javac -d bin src/monstraria/*.java src/monstraria/view/*.java
+   javac -d bin src\monstraria\*.java src\monstraria\view\*.java
 
 3) Execute a versão com interface gráfica (Swing):
    java -cp bin monstraria.MainGUI
